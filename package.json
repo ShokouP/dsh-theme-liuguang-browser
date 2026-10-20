@@ -1,0 +1,41 @@
+{
+  "name": "dsh-theme-liuguang-browser",
+  "version": "0.3.0",
+  "private": false,
+  "description": "Liuguang skin — browser half: mounts the personalization overlay and the whale-girl pet, serves /liuguang/ping and the expression sprites.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-theme",
+    "deepseek-harness",
+    "skin",
+    "theme",
+    "desktop-pet"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShokouP/dsh-theme-liuguang.git"
+  },
+  "homepage": "https://github.com/ShokouP/dsh-theme-liuguang#readme",
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "assets",
+    "README.md"
+  ],
+  "license": "MIT"
+}
